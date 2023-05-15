@@ -1,0 +1,126 @@
+*{
+    background-color: #E5E5E5;
+    font-family: 'Inter', sans-serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+    line-height: 174%;
+    @media (max-width: 768px) {
+        /* Estilos para dispositivos com largura menor que 768 pixels */
+      }
+}
+
+
+  
+.logoAlura {
+    margin: 6px;
+    padding: 0px;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+
+
+main {
+    display: flex;
+    margin-bottom: 50px;
+    margin-left: 80px;    
+}
+
+.text-area {
+    border: none;
+    color: #0A3871;
+    margin-top: 90px;
+    text-transform: lowercase;
+}
+
+::placeholder{ color: #0A3871; }
+    .text-area-focus {
+        outline: none;
+    }
+
+    .mensagem {
+        background: white;
+        background-image: url(/imagens/boneco.png) ;
+        background-repeat: no-repeat;
+        background-position: -4px;
+        background-position-y: 174px;
+        border: 100;
+        border-radius: 24px;
+        color: #0A3871;
+        margin-left: 61px;
+        margin-top: 20px;
+        padding-left: 5px;      
+        position:fixed ;
+    }
+
+    .mensagem:focus {
+        outline: none;
+    }
+.botoes {
+    display: flex;
+    margin-top: 18px;
+}
+
+.btn-encriptar {
+    background-color: #0A3871;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: white;
+    cursor: pointer;
+    height: 67px;
+    width: 279px;
+}
+.btn-desencriptar {
+    background: #D8DFE8;
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    width: 328px;
+    height: 67px;
+    margin-left: 30px;
+}
+
+.btn-copiar {
+    border: 1px solid #0A3871;
+    border-radius: 24px;
+    color: #0A3871;
+    cursor: pointer;
+    height: 75px;
+    margin-left: 102px;
+    margin-top: 495px;
+    position: absolute;
+    width: 326px;
+}
+    
+    
+
+  
+.Informacao {
+    color: #495057;
+    font-size: 18px;
+}
+.btn-copiar {
+    background-color: #007bff;
+    color: #fff;
+    transition: background-color 0.5s ease-in-out;
+  }
+  
+  .btn-copiar.copiado {
+    background-color: #b31212;
+    color: #fff;
+  }
+  
+  footer {
+	text-align: center;
+	padding: 40px 0;
+}
+
+.copyright {
+	color: #000000;
+	font-size: 15px;
+	margin: 20px 0 0;
+    width: 80%;
+}
